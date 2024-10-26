@@ -100,4 +100,4 @@ bot.onText(/\/price/, (msg) => {
 // Polling to send jokes at regular intervals (e.g., every 30 minutes)
 setInterval(() => {
   sendJoke();
-}, 1 * 60 * 1000); // Every 30 minutes
+}, 60 * 60 * 1000); // Every 30 minutes
